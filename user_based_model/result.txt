@@ -1,0 +1,109 @@
+GMF arguments: Namespace(batch_size=256, dataset='kariyer', epochs=20, learner='adam', lr=0.001, num_factors=8, num_neg=4, out=1, path='Data/', regs='[0,0]', verbose=1)
+Load data done [9.1 s]. #user=20283, #item=16134, #train=363151, #test=20283
+Init: HR = 0.1011, NDCG = 0.0465	 [18.2 s]
+Iteration 0 [40.5 s]: HR = 0.3806, NDCG = 0.2224, loss = 0.4865 [11.3 s]
+Iteration 1 [17.1 s]: HR = 0.5434, NDCG = 0.3353, loss = 0.3739 [11.3 s]
+Iteration 2 [16.9 s]: HR = 0.6367, NDCG = 0.4104, loss = 0.3054 [10.9 s]
+Iteration 3 [16.7 s]: HR = 0.6980, NDCG = 0.4585, loss = 0.2610 [11.4 s]
+Iteration 4 [21.4 s]: HR = 0.7341, NDCG = 0.4896, loss = 0.2327 [14.8 s]
+Iteration 5 [17.4 s]: HR = 0.7611, NDCG = 0.5126, loss = 0.2142 [16.8 s]
+Iteration 6 [26.4 s]: HR = 0.7748, NDCG = 0.5244, loss = 0.2023 [14.8 s]
+Iteration 7 [23.8 s]: HR = 0.7888, NDCG = 0.5371, loss = 0.1937 [12.7 s]
+Iteration 8 [21.4 s]: HR = 0.7957, NDCG = 0.5447, loss = 0.1863 [15.1 s]
+Iteration 9 [23.1 s]: HR = 0.8027, NDCG = 0.5499, loss = 0.1809 [14.4 s]
+Iteration 10 [21.7 s]: HR = 0.8100, NDCG = 0.5560, loss = 0.1770 [12.3 s]
+Iteration 11 [21.9 s]: HR = 0.8133, NDCG = 0.5613, loss = 0.1735 [13.9 s]
+Iteration 12 [23.7 s]: HR = 0.8174, NDCG = 0.5649, loss = 0.1705 [12.4 s]
+Iteration 13 [21.4 s]: HR = 0.8207, NDCG = 0.5683, loss = 0.1676 [17.2 s]
+Iteration 14 [19.9 s]: HR = 0.8228, NDCG = 0.5695, loss = 0.1651 [12.2 s]
+Iteration 15 [25.2 s]: HR = 0.8266, NDCG = 0.5739, loss = 0.1630 [13.2 s]
+Iteration 16 [22.9 s]: HR = 0.8271, NDCG = 0.5753, loss = 0.1616 [15.7 s]
+Iteration 17 [20.5 s]: HR = 0.8269, NDCG = 0.5768, loss = 0.1602 [14.7 s]
+Iteration 18 [21.9 s]: HR = 0.8297, NDCG = 0.5793, loss = 0.1585 [16.4 s]
+Iteration 19 [20.0 s]: HR = 0.8293, NDCG = 0.5792, loss = 0.1567 [13.9 s]
+End. Best Iteration 18:  HR = 0.8297, NDCG = 0.5793.
+The best GMF model is saved to Pretrain/kariyer_GMF_8_1545593952.h5
+
+-------------------------------------------------------------------------
+
+MLP arguments: Namespace(batch_size=256, dataset='kariyer', epochs=20, layers='[64,32,16,8]', learner='adam', lr=0.001, num_neg=4, out=1, path='Data/', reg_layers='[0,0,0,0]', verbose=1)
+Load data done [9.8 s]. #user=20283, #item=16134, #train=363151, #test=20283
+Init: HR = 0.0986, NDCG = 0.0445 [22.8]
+Iteration 0 [88.2 s]: HR = 0.4144, NDCG = 0.2406, loss = 0.4416 [18.0 s]
+Iteration 1 [65.1 s]: HR = 0.5917, NDCG = 0.3573, loss = 0.3460 [15.6 s]
+Iteration 2 [57.0 s]: HR = 0.6781, NDCG = 0.4302, loss = 0.2806 [18.4 s]
+Iteration 3 [69.4 s]: HR = 0.7249, NDCG = 0.4712, loss = 0.2437 [20.6 s]
+Iteration 4 [83.5 s]: HR = 0.7502, NDCG = 0.4957, loss = 0.2188 [13.9 s]
+Iteration 5 [56.4 s]: HR = 0.7715, NDCG = 0.5182, loss = 0.1998 [17.2 s]
+Iteration 6 [65.8 s]: HR = 0.7879, NDCG = 0.5344, loss = 0.1839 [14.9 s]
+Iteration 7 [60.5 s]: HR = 0.7929, NDCG = 0.5427, loss = 0.1709 [16.6 s]
+Iteration 8 [107.3 s]: HR = 0.8015, NDCG = 0.5511, loss = 0.1600 [16.7 s]
+Iteration 9 [62.6 s]: HR = 0.8031, NDCG = 0.5564, loss = 0.1496 [16.5 s]
+Iteration 10 [67.9 s]: HR = 0.8051, NDCG = 0.5616, loss = 0.1419 [17.8 s]
+Iteration 11 [66.2 s]: HR = 0.8058, NDCG = 0.5669, loss = 0.1345 [16.6 s]
+Iteration 12 [66.0 s]: HR = 0.8056, NDCG = 0.5678, loss = 0.1283 [16.5 s]
+Iteration 13 [74.0 s]: HR = 0.8102, NDCG = 0.5728, loss = 0.1225 [16.6 s]
+Iteration 14 [69.1 s]: HR = 0.8121, NDCG = 0.5742, loss = 0.1175 [14.2 s]
+Iteration 15 [70.9 s]: HR = 0.8148, NDCG = 0.5747, loss = 0.1131 [16.3 s]
+Iteration 16 [65.1 s]: HR = 0.8148, NDCG = 0.5768, loss = 0.1087 [14.0 s]
+Iteration 17 [54.8 s]: HR = 0.8109, NDCG = 0.5775, loss = 0.1052 [12.8 s]
+Iteration 18 [61.3 s]: HR = 0.8125, NDCG = 0.5798, loss = 0.1018 [12.9 s]
+Iteration 19 [59.5 s]: HR = 0.8127, NDCG = 0.5788, loss = 0.0989 [12.8 s]
+End. Best Iteration 15:  HR = 0.8148, NDCG = 0.5747.
+The best MLP model is saved to Pretrain/kariyer_MLP_[64,32,16,8]_1545594755.h5
+
+-------------------------------------------------------------------------
+
+NeuMF arguments: Namespace(batch_size=256, dataset='kariyer', epochs=20, layers='[64,32,16,8]', learner='adam', lr=0.001, mf_pretrain='', mlp_pretrain='', num_factors=8, num_neg=4, out=1, path='Data/', reg_layers='[0,0,0,0]', reg_mf=0.0, verbose=1)
+Load data done [11.9 s]. #user=20283, #item=16134, #train=363151, #test=20283
+Init: HR = 0.0963, NDCG = 0.0428
+Iteration 0 [97.7 s]: HR = 0.4873, NDCG = 0.3044, loss = 0.4372 [15.7 s]
+Iteration 1 [71.5 s]: HR = 0.7078, NDCG = 0.4741, loss = 0.2919 [15.5 s]
+Iteration 2 [82.8 s]: HR = 0.7724, NDCG = 0.5317, loss = 0.2121 [19.4 s]
+Iteration 3 [81.0 s]: HR = 0.8014, NDCG = 0.5596, loss = 0.1774 [19.5 s]
+Iteration 4 [78.6 s]: HR = 0.8172, NDCG = 0.5744, loss = 0.1570 [17.1 s]
+Iteration 5 [78.4 s]: HR = 0.8270, NDCG = 0.5861, loss = 0.1421 [17.0 s]
+Iteration 6 [83.3 s]: HR = 0.8337, NDCG = 0.5949, loss = 0.1306 [14.9 s]
+Iteration 7 [71.3 s]: HR = 0.8387, NDCG = 0.6005, loss = 0.1213 [16.1 s]
+Iteration 8 [73.0 s]: HR = 0.8408, NDCG = 0.6032, loss = 0.1141 [14.4 s]
+Iteration 9 [76.5 s]: HR = 0.8404, NDCG = 0.6024, loss = 0.1066 [15.5 s]
+Iteration 10 [109.9 s]: HR = 0.8421, NDCG = 0.6045, loss = 0.1011 [19.3 s]
+Iteration 11 [89.6 s]: HR = 0.8390, NDCG = 0.6034, loss = 0.0960 [14.7 s]
+Iteration 12 [69.9 s]: HR = 0.8412, NDCG = 0.6072, loss = 0.0920 [13.6 s]
+Iteration 13 [67.4 s]: HR = 0.8429, NDCG = 0.6088, loss = 0.0879 [13.5 s]
+Iteration 14 [69.2 s]: HR = 0.8396, NDCG = 0.6090, loss = 0.0842 [13.5 s]
+Iteration 15 [72.8 s]: HR = 0.8424, NDCG = 0.6093, loss = 0.0811 [13.3 s]
+Iteration 16 [72.8 s]: HR = 0.8417, NDCG = 0.6106, loss = 0.0783 [13.4 s]
+Iteration 17 [74.0 s]: HR = 0.8428, NDCG = 0.6105, loss = 0.0753 [13.6 s]
+Iteration 18 [75.8 s]: HR = 0.8405, NDCG = 0.6114, loss = 0.0736 [13.6 s]
+Iteration 19 [79.8 s]: HR = 0.8407, NDCG = 0.6112, loss = 0.0713 [13.4 s]
+End. Best Iteration 13:  HR = 0.8429, NDCG = 0.6088.
+The best NeuMF model is saved to Pretrain/kariyer_NeuMF_8_[64,32,16,8]_1545596600.h5
+
+------------------------------------------------------------------------
+
+Load data done [8.9 s]. #user=20283, #item=16134, #train=363151, #test=20283
+Load pretrained GMF (Pretrain/kariyer_GMF_8_1545593952.h5) and MLP (Pretrain/kariyer_MLP_[64,32,16,8]_1545594755.h5) models done.
+Init: HR = 0.8630, NDCG = 0.6291
+Iteration 0 [106.1 s]: HR = 0.8562, NDCG = 0.6225, loss = 0.0985 [15.4 s]
+Iteration 1 [75.9 s]: HR = 0.8524, NDCG = 0.6211, loss = 0.0918 [15.5 s]
+Iteration 2 [97.2 s]: HR = 0.8498, NDCG = 0.6204, loss = 0.0864 [18.4 s]
+Iteration 3 [96.0 s]: HR = 0.8479, NDCG = 0.6183, loss = 0.0825 [15.9 s]
+Iteration 4 [105.6 s]: HR = 0.8468, NDCG = 0.6204, loss = 0.0792 [14.9 s]
+Iteration 5 [86.8 s]: HR = 0.8471, NDCG = 0.6175, loss = 0.0764 [15.7 s]
+Iteration 6 [97.5 s]: HR = 0.8462, NDCG = 0.6167, loss = 0.0737 [15.8 s]
+Iteration 7 [109.4 s]: HR = 0.8450, NDCG = 0.6171, loss = 0.0712 [15.9 s]
+Iteration 8 [105.3 s]: HR = 0.8443, NDCG = 0.6188, loss = 0.0694 [14.3 s]
+Iteration 9 [110.2 s]: HR = 0.8458, NDCG = 0.6183, loss = 0.0678 [13.4 s]
+Iteration 10 [95.5 s]: HR = 0.8435, NDCG = 0.6162, loss = 0.0653 [13.3 s]
+Iteration 11 [96.6 s]: HR = 0.8413, NDCG = 0.6161, loss = 0.0643 [13.5 s]
+Iteration 12 [98.2 s]: HR = 0.8430, NDCG = 0.6177, loss = 0.0636 [13.8 s]
+Iteration 13 [96.9 s]: HR = 0.8427, NDCG = 0.6186, loss = 0.0613 [13.6 s]
+Iteration 14 [98.1 s]: HR = 0.8401, NDCG = 0.6158, loss = 0.0605 [13.7 s]
+Iteration 15 [101.4 s]: HR = 0.8389, NDCG = 0.6129, loss = 0.0592 [13.2 s]
+Iteration 16 [101.4 s]: HR = 0.8393, NDCG = 0.6152, loss = 0.0585 [13.7 s]
+Iteration 17 [107.8 s]: HR = 0.8388, NDCG = 0.6135, loss = 0.0575 [13.8 s]
+Iteration 18 [106.4 s]: HR = 0.8368, NDCG = 0.6123, loss = 0.0563 [13.5 s]
+Iteration 19 [105.4 s]: HR = 0.8376, NDCG = 0.6138, loss = 0.0560 [15.1 s]
+End. Best Iteration -1:  HR = 0.8630, NDCG = 0.6291.
+The best NeuMF model is saved to Pretrain/kariyer_NeuMF_8_[64,32,16,8]_1545599412.h5
